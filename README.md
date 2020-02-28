@@ -1,7 +1,8 @@
 # my-app
 
 「基礎から学ぶ Vue.js」を読みながら勉強したことをメモしています。
-vue-cliを用いてvue-routerの理解を深めながらアプリケーションを作成します https://cr-vue.mio3io.com/
+vue-cliを用いてvue-routerの理解を深めながらSPAを作成します。
+ https://cr-vue.mio3io.com/
 
 ## Build Setup
 

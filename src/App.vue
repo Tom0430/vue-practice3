@@ -1,7 +1,11 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <router-view/>
+    <nav>
+      <router-link to="/">HOME</router-link>
+      <router-link to="/product">商品情報</router-link>
+    </nav>
+    <router-view />
+    <!-- この<router-view />がないと動かない -->
   </div>
 </template>
 
