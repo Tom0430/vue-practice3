@@ -16,7 +16,6 @@
 </template>
 
 <script>
-  import products from '@/api/products.js'
   export default {
     data() {
           return {
@@ -30,14 +29,9 @@
         this.axios.get('https://api.myjson.com/bins/idr9w')
         .then((response) => {
             let items = response.data
-            console.log(this.item)
             this.item = items.filter((itm) => {
-                console.log(itm)
-                console.log(itm.id)
-                console.log("this.id" , this.id)
-                return parseInt(itm.id) === this.id
+                return itm.id === this.id
             })
-            console.log(this.item[0].id)
         })
         // .catch((e) => {
         //     alert(e);
